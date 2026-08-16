@@ -22,5 +22,3 @@ c7 mov 2 mem imm r 0
 33 xor 2 reg mem r -1
 81 xor 2 reg imm r 6
 35 xor 2 eax imm n -1
-
-
