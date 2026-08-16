@@ -1,0 +1,26 @@
+01 add 2 reg reg r -1
+03 add 2 reg mem r -1
+81 add 2 reg imm r 0
+05 add 2 eax imm n -1
+21 and 2 reg reg r -1
+23 and 2 reg mem r -1
+81 and 2 reg imm r 4
+25 and 2 reg imm n -1
+39 cmp 2 reg reg r -1
+3B cmp 2 reg men r -1
+81 cmp 2 reg imm r 7
+3D cmp 2 eax imm n -1
+89 mov 2 reg reg r -1
+8B mov 2 reg mem r -1
+B8 mov 2 reg imm r +rd
+c7 mov 2 mem imm r 0
+29 sub 2 reg reg r -1
+2B sub 2 reg mem r -1
+81 sub 2 reg imm r 5
+2D sub 2 eax imm n -1
+31 xor 2 reg reg r -1
+33 xor 2 reg mem r -1
+81 xor 2 reg imm r 6
+35 xor 2 eax imm n -1
+
+
